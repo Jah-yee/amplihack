@@ -158,10 +158,13 @@ amplihack update
 
 ### First Session
 
-After launching amplihack (e.g., `amplihack claude`), you'll be inside an
-**interactive agent session** — a chat interface powered by your chosen coding
-agent. Everything you type in this session is interpreted by amplihack's
-workflow engine, not by your regular shell.
+To start an interactive session, open your terminal and run:
+
+```bash
+amplihack claude
+```
+
+This opens an **interactive agent session** — a chat interface powered by your chosen coding agent. Everything you type in this session is interpreted by amplihack's workflow engine, not by your regular shell.
 
 **New users** — start with the interactive tutorial:
 
