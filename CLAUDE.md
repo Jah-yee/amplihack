@@ -66,12 +66,12 @@ automation and collaborative problem-solving.
 
 When starting a session, import these files for context:
 
-[@~/.amplihack/.claude/context/PHILOSOPHY.md](~/.amplihack/.claude/context/PHILOSOPHY.md)
-[@~/.amplihack/.claude/context/PROJECT.md](~/.amplihack/.claude/context/PROJECT.md)
-[@~/.amplihack/.claude/context/PATTERNS.md](~/.amplihack/.claude/context/PATTERNS.md)
-[@~/.amplihack/.claude/context/TRUST.md](~/.amplihack/.claude/context/TRUST.md)
-[@~/.amplihack/.claude/context/USER_PREFERENCES.md](~/.amplihack/.claude/context/USER_PREFERENCES.md)
-[@~/.amplihack/.claude/context/USER_REQUIREMENT_PRIORITY.md](~/.amplihack/.claude/context/USER_REQUIREMENT_PRIORITY.md)
+[@.claude/context/PHILOSOPHY.md](.claude/context/PHILOSOPHY.md)
+[@.claude/context/PROJECT.md](.claude/context/PROJECT.md)
+[@.claude/context/PATTERNS.md](.claude/context/PATTERNS.md)
+[@.claude/context/TRUST.md](.claude/context/TRUST.md)
+[@.claude/context/USER_PREFERENCES.md](.claude/context/USER_PREFERENCES.md)
+[@.claude/context/USER_REQUIREMENT_PRIORITY.md](.claude/context/USER_REQUIREMENT_PRIORITY.md)
 
 ## MANDATORY: Workflow Classification at Topic Boundaries
 
