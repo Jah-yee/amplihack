@@ -21,8 +21,17 @@ Before installing amplihack, verify your prerequisites with this script:
 
 ```bash
 # Copy-paste this into your terminal — no installation required
-node --version && npm --version && uv --version && git --version && cargo --version && echo "All prerequisites OK"
+for tool in node npm uv git cargo; do
+  if command -v "$tool" &>/dev/null; then
+    echo "  ✓ $tool ($($tool --version 2>&1 | head -1))"
+  else
+    echo "  ✗ $tool (not found)"
+  fi
+done
+echo "Done."
 ```
+
+This reports the status of each tool individually, so you can see exactly what's missing and what's already installed.
 
 After installing amplihack, running `amplihack` will also check for missing tools and display installation instructions.
 
